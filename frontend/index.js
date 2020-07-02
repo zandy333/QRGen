@@ -33,7 +33,7 @@ function QRGen() {
 			recordIds = useRecordIds(null);
 			record = useRecordById(null, null);
 			cellval = "";
-			text = "No cell is selected.";
+			text = "Select a table cell.";
 			qrstyle = {backgroundColor: "#fff", position: "absolute", display: "none", padding: "5%", left: "5%", top: "5%", 
 			width: "90%", height: "auto"};
 			
@@ -59,7 +59,7 @@ function QRGen() {
 			} else if (record == null) { // If the record containing the selected cell was deleted via right click menu
 
 				cellval = "";
-				text = "No cell is selected.";
+				text = "Select a table cell.";
 				qrstyle = {backgroundColor: "#fff", position: "absolute", display: "none", padding: "5%", left: "5%", top: "5%", 
 				width: "90%", height: "auto"};			
 			}
