@@ -7,3 +7,6 @@ Change directory to that folder.
 Run the command:  
 `npm install`
 
+## To Run the Block
+Use Airtable platform-specific instructions.
+
